@@ -4,7 +4,7 @@ import LandingPage from "./LandingPage";
 import SignUp from "./Signup";
 import Login from "./Login";
 import SpecPage from "./components/SpecPage";
-import FeedbackPage from "./feedback/FeedbackPage"; // FeedbackPage 경로 수정
+import FeedbackPage from "./feedback/FeedbackPage";
 
 const App = () => {
   return (
