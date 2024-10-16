@@ -1,6 +1,6 @@
 import React from "react";
-import "./LandingPage.css"; // CSS 파일을 src 폴더 안에 위치시킨 후 경로 수정
-import logo from "./assets/logo.png"; // 이미지 경로 수정
+import "./LandingPage.css";
+import logo from "./assets/logo.png";
 
 const LandingPage = () => {
   return (
