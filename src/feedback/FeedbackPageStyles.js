@@ -40,14 +40,14 @@ export const TabButton = styled.button`
 // 메인 컨텐츠 영역
 export const MainContent = styled.div`
   display: flex;
-  flex: 1;
-  padding: 30px; /* 전체 여백 넓힘 */
+  flex: 2;
+  padding: 15px; /* 전체 여백 넓힘 */
   justify-content: space-between;
 `;
 
 // 왼쪽 피드백 섹션 (학력 등)
 export const FeedbackSection = styled.div`
-  flex: 0.35; /* 좀 더 넓게 설정 */
+  flex: 0.25; /* 좀 더 넓게 설정 */
   padding: 20px;
   background-color: #edf2f7;
   border-radius: 10px;
@@ -74,14 +74,14 @@ export const FeedbackContent = styled.p`
 // 우측 피드백 상세 섹션
 export const FeedbackDetailSection = styled.div`
   flex: 0.6; /* 좀 더 넓게 설정 */
-  padding: 200px; /* padding을 줄여서 내부 여백 설정 */
+  padding: 100px; /* padding을 줄여서 내부 여백 설정 */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 
   /* 높이 조절 */
   height: auto; /* 필요에 따라 자동으로 늘어나게 */
-  min-height: 400px; /* 최소 높이를 설정 */
+  min-height: 500px; /* 최소 높이를 설정 */
   max-height: 600px; /* 최대 높이를 설정 */
   overflow-y: auto; /* 내용이 넘치면 스크롤 */
 `;
