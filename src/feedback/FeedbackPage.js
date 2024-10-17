@@ -73,7 +73,13 @@ const FeedbackPage = () => {
             isActive={selectedTab === "어학"}
             onClick={() => setSelectedTab("어학")}
           >
-            어학/자격증
+            어학
+          </SidebarItem>
+          <SidebarItem
+            isActive={selectedTab === "자격증"}
+            onClick={() => setSelectedTab("자격증")}
+          >
+            자격증
           </SidebarItem>
           <SidebarItem
             isActive={selectedTab === "수상"}
